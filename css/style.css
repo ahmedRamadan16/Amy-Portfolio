@@ -343,6 +343,19 @@ font-size: 1.5rem;
     flex: 4;
     transform: skew(350deg,354deg);
 }
+@media (max-width:767px)
+{
+    #testimonials .row .content:first-of-type,
+#testimonials .row .content:nth-of-type(3){
+   
+    transform:  skew(0deg,0deg);
+
+
+}
+#testimonials .row .content:nth-of-type(2){
+    transform: skew(0deg,0deg);
+}
+}
 
 #testimonials .row .content::after
 {
